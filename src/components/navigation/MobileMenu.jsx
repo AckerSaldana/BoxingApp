@@ -15,7 +15,7 @@ const MobileMenu = ({ isOpen, onClose }) => {
   const { user } = useAuthStore();
 
   const navItems = [
-    { path: '/dashboard', label: 'FIGHTS', icon: RiBoxingFill },
+    { path: '/main-card', label: 'MAIN CARD', icon: RiBoxingFill },
     { path: '/fighters', label: 'FIGHTERS', icon: GiBoxingGlove },
     { path: '/predictions', label: 'PREDICTIONS', icon: RiFireFill },
     { path: '/social', label: 'SOCIAL', icon: RiChat3Fill },

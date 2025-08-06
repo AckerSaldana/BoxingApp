@@ -51,8 +51,8 @@ function App() {
         
         {/* Protected Routes with Layout */}
         <Route path="/" element={<PrivateRoute><MainLayout /></PrivateRoute>}>
-          <Route index element={<Navigate to="/dashboard" />} />
-          <Route path="dashboard" element={<Dashboard />} />
+          <Route index element={<Navigate to="/main-card" />} />
+          <Route path="main-card" element={<Dashboard />} />
           <Route path="fights" element={<UpcomingFights />} />
           <Route path="fight/:fightId" element={<FightView />} />
           <Route path="results" element={<PastResults />} />

@@ -23,9 +23,7 @@ const NavigationSidebar = () => {
   };
 
   const navItems = [
-    { path: '/dashboard', label: 'DASHBOARD', icon: RiBoxingFill },
-    { path: '/fights', label: 'UPCOMING', icon: RiCalendarLine },
-    { path: '/results', label: 'RESULTS', icon: RiHistoryLine },
+    { path: '/main-card', label: 'MAIN CARD', icon: RiBoxingFill },
     { path: '/fighters', label: 'FIGHTERS', icon: GiBoxingGlove },
     { path: '/predictions', label: 'PREDICTIONS', icon: RiFireFill },
     { path: '/social', label: 'SOCIAL', icon: RiChat3Fill },
